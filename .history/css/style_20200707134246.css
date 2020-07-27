@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-image: radial-gradient(
+    circle,
+    rgba(24, 60, 132, 1) 5%,
+    rgba(19, 38, 75, 1) 100%
+  );
+  color: lavender;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  height: 120px;
+}
+.menu button,
+.note-panel .save,
+.note-panel .cancel {
+  padding: 12px 25px;
+  background: none;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}

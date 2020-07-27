@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-image: radial-gradient(
+    circle,
+    rgba(24,60,132,1)) 50%,
+    rgba(238, 239, 241, 1) 100%
+  );
+}
